@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "lib": ["ES2019", "DOM"],
+      "types": ["vitest/globals"]
+  },
+  "include": [
+      "src",
+      "types/*"
+  ]
+}
